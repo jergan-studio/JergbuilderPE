@@ -1,8 +1,8 @@
-# JergBuilder PE
+# JergBuilder Zipper Edition
 
-**PE = Pocket Edition**
+**ZE = Zipper Edition**
 
-JergBuilder PE is the Pocket Edition version of JergBuilder. It keeps the same simple, static-web deployment style as JergBuilder, so it can be deployed without a server or build system.
+JergBuilder Zipper Edition is the lightweight browser edition of JergBuilder. It keeps the same simple static-web deployment style as JergBuilder while adding a touch-friendly interface for mobile devices.
 
 ## Features
 
@@ -18,14 +18,14 @@ JergBuilder PE is the Pocket Edition version of JergBuilder. It keeps the same s
 - Skin selection UI
 - FOV setting
 - JavaScript mod loader
-- Mobile/Pocket Edition touch controls
+- Mobile touch controls
 - No build step required
 - No backend required
 - Runs directly from a static web host
 
 ## Deploy
 
-JergBuilder PE is a static website. You can deploy the repository directly to:
+JergBuilder Zipper Edition is a static website. You can deploy the repository directly to:
 
 - GitHub Pages
 - Vercel
@@ -55,9 +55,15 @@ Open `index.html` in a modern browser, or use any simple static file server.
 | Mouse wheel | Change hotbar slot |
 | `[` | Toggle third person |
 
-### Pocket Edition
+### Mobile
 
-On phones and tablets, JergBuilder PE uses touch-friendly controls for movement, looking, jumping, and block interaction.
+Touch controls appear automatically on phones and tablets:
+
+- Direction pad — Move
+- JUMP — Jump
+- ⛏ — Break block
+- + — Place block
+- Swipe/touch the game area — Look
 
 ## Project structure
 
@@ -73,7 +79,7 @@ JergbuilderPE/
 
 ## Relationship to JergBuilder
 
-JergBuilder PE is designed to feel like the main JergBuilder project while remaining small and easy to deploy. It uses the same general browser-based Three.js approach and compatible gameplay concepts.
+JergBuilder Zipper Edition is designed to feel like the main JergBuilder project while remaining small and easy to deploy. It uses the same general browser-based Three.js approach and compatible gameplay concepts.
 
 ## Credits
 
